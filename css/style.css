@@ -1,1 +1,21 @@
 /* Your custom styles */
+html, body,header,#intro{
+    height: 100%;
+}
+#intro{
+    background: url("../img/assets/homepage-banner.png")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.show{
+    background-color: #0099CC;
+}
+
+._registerBtn{
+    border: 2px solid white;
+    color: blue !important;
+}
+
