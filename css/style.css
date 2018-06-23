@@ -14,6 +14,10 @@ html, body,header,#intro{
     background-color: #0099CC;
 }
 
+.top-nav-collapse{
+    background-color: #0099CC;
+}
+
 ._registerBtn{
     border: 2px solid white;
     color: blue !important;
