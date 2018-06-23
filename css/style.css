@@ -23,7 +23,12 @@ html, body,header,#intro{
     color: blue !important;
 }
 
-.xs{
-    margin-top: 100px;
+@media (max-width: 576px) {
+    .xs{
+        margin-top: 100px;
+    }
+    .howItWork{
+        padding: 10px 20%;
+    }
 }
 
