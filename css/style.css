@@ -1,5 +1,5 @@
 /* Your custom styles */
-html, body,header,#intro,.whyfundinn{
+html, body,header,#intro,.whyfundinn,.goalPlanner{
     height: 100%;
 }
 #intro{
@@ -12,6 +12,14 @@ html, body,header,#intro,.whyfundinn{
 
 .whyfundinn{
     background: url("../img/assets/bg-layer.png")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.goalPlanner{
+    background: url("../img/assets/bg-layer-color.png")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -49,6 +57,10 @@ html, body,header,#intro,.whyfundinn{
     }
     .btn-fundExp{
         width: 100% !important;
+    }
+    .xs-goal-planner{
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 
