@@ -96,3 +96,31 @@ input[type=text]{
     margin-top: 1px;
 }
 
+.inputAmount ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 0.7 !important; /* Firefox */
+    font-weight: bold;
+    width: 200px !important;
+}
+
+.inputAmount input[type=text]{
+    font-weight: bold;
+}
+
+.dropdown .btn{
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+#GC .slider-selection {
+    background: #428041;
+}
+#GC .slider-handle {
+    background: green;
+}
+
+.slider.slider-horizontal {
+    width: 320px;
+    margin-bottom: 0;
+}
