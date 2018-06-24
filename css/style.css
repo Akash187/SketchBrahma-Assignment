@@ -124,3 +124,8 @@ input[type=text]{
     width: 320px;
     margin-bottom: 0;
 }
+
+/*dropdown not working correctly hence disabled*/
+.dropdown-menu.show{
+    display: none;
+}
