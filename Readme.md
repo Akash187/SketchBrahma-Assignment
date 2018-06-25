@@ -1,6 +1,6 @@
 # SketchBrahma-Assignment
 
-## Fully responsive Front-End of a FindsInn Website.
+## Fully responsive Front-End of a FundsInn Website.
 ## The project is developed for Front End Developer Internship by SketchBrahma.
 
 ## Live Preview at (http://fundsinn.bitballoon.com)
