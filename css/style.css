@@ -109,7 +109,7 @@ input[type=tel]{
 .btn-fundExp{
     color: black !important;
     opacity: 0.4 !important;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold !important;
     background: lightgray;
     padding: 8px 16px !important;
@@ -171,7 +171,11 @@ tbody{
 }
 
 .foot-content{
-    background-color: #0D47A1;
-    opacity: 0.5;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.foot-copyright{
+    background-color: black;
 }
 
