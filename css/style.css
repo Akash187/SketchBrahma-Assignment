@@ -146,3 +146,7 @@ input[type=text]{
     background-color: #0D47A1;
 }
 
+tbody{
+    border: 2px solid white !important;
+}
+
