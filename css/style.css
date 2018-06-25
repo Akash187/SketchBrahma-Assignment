@@ -1,5 +1,5 @@
 /* Your custom styles */
-html, body,header,#intro,.whyfundinn,.goalPlanner{
+html, body,header,#intro,.bg-lightGrey,.goalPlanner{
     height: 100%;
 }
 #intro{
@@ -10,7 +10,7 @@ html, body,header,#intro,.whyfundinn,.goalPlanner{
     background-size: 100% 100%;
 }
 
-.whyfundinn{
+.bg-lightGrey{
     background: url("../img/assets/bg-layer.png")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -129,3 +129,20 @@ input[type=text]{
 .dropdown-menu.show{
     display: none;
 }
+
+.carousel-control-next-icon{
+    height: 50px !important;
+}
+
+.carousel-control-prev-icon{
+    height: 50px !important;
+}
+
+.carousel-indicators li{
+    background-color: #0099CC;
+}
+
+.carousel-indicators .active{
+    background-color: #0D47A1;
+}
+
