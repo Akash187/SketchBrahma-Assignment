@@ -1,5 +1,5 @@
 /* Your custom styles */
-html, body,header,#intro,.bg-lightGrey,.goalPlanner{
+html, body,header,#intro,.bg-lightGrey,.goalPlanner,.bg-contact{
     height: 100%;
 }
 #intro{
@@ -12,6 +12,14 @@ html, body,header,#intro,.bg-lightGrey,.goalPlanner{
 
 .bg-lightGrey{
     background: url("../img/assets/bg-layer.png")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-contact{
+    background: url("../img/assets/contact-layer.png")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,6 +76,18 @@ input[type=text]{
     border-bottom: none!important;
     box-shadow: none!important;
     width: 350px !important;
+}
+
+input[type=email]{
+    border-bottom: none!important;
+    box-shadow: none!important;
+    width: 100px !important;
+}
+
+input[type=tel]{
+    border-bottom: none!important;
+    box-shadow: none!important;
+    width: 100px !important;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -148,5 +168,10 @@ input[type=text]{
 
 tbody{
     border: 2px solid white !important;
+}
+
+.foot-content{
+    background-color: #0D47A1;
+    opacity: 0.5;
 }
 
